@@ -1,193 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Personal Portfolio - Resume Website">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe | Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta name="description" content="Roma Grigalashvili - UI & UX Designer Portfolio" />
+  <meta name="keywords" content="UI, UX, Designer, Web Design, App Design, Front-End Development" />
+  <meta name="author" content="Roma Grigalashvili" />
+
+  <title>Roma Grigalashvili | UI & UX Designer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="src/css/styles.css" />
 </head>
+
 <body>
 
-<!-- HEADER -->
+<!-- ================= HEADER ================= -->
 <header id="home">
-    <div class="logo">John Doe</div>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact">Contact</a>
-    </nav>
+  <strong class="logo">ROMA GRIGALASHVILI</strong>
+
+  <nav class="header-nav">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#aboutMe">About Me</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#myProjects">Projects</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button class="cv-btn">Download CV</button></li>
+    </ul>
+
+    <button class="burger-btn">
+      <img src="./src/img/burger-icon.svg" alt="Menu" />
+    </button>
+  </nav>
 </header>
 
-<!-- SLIDER -->
+<!-- ================= HERO / SLIDER ================= -->
 <section class="hero">
+  <div class="container hero-inner">
+
     <div class="hero-text">
-        <h1>John Doe</h1>
-        <h2>Web Developer</h2>
-        <p>I build modern, responsive and secure web applications.</p>
+      <p class="hero-intro">Hi I am</p>
+      <p class="hero-name">Roma Grigalashvili</p>
 
-        <div class="socials">
-            <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <h1 class="hero-title">
+        Front-End Developer <br />
+        UI & UX Designer
+      </h1>
+
+      <p class="hero-description">
+        I design and build responsive, modern and user-friendly interfaces.
+      </p>
+
+      <a href="#contact" class="btn btn-accent">Hire Me</a>
+    </div>
+
+    <div class="img-wrapper">
+      <div class="img-container">
+        <div class="img-wrapper-container">
+          <img class="about-above-img active" src="./src/img/Profile_1.webp" alt="Profile 1" />
+          <img class="about-above-img" src="./src/img/Profile_2.webp" alt="Profile 2" />
         </div>
+
+        <div class="social-links">
+          <a href="https://www.facebook.com/grigalashvili.r" target="_blank">
+            <img src="./src/img/Facebook.png" alt="Facebook">
+          </a>
+          <a href="https://www.instagram.com/grigala_r/" target="_blank">
+            <img src="./src/img/Instagram.png" alt="Instagram">
+          </a>
+          <a href="https://www.linkedin.com/in/roma-grigalashvili-17b65b181/" target="_blank">
+            <img src="./src/img/LinkedIn.png" alt="LinkedIn">
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div class="hero-image">
-        <img id="sliderImage" src="images/me1.jpg" alt="Profile">
-    </div>
+  </div>
 </section>
 
-<!-- ABOUT -->
-<section id="about">
-    <h2>About Me</h2>
+<!-- ================= ABOUT ME ================= -->
+<section class="about" id="aboutMe">
+  <div class="container profile-wrapper">
 
-    <div class="about-container">
-        <img src="images/me2.jpg" alt="About Me">
-
-        <div>
-            <p>
-                I am a passionate Web Developer with experience in HTML, CSS,
-                JavaScript and backend technologies. I enjoy creating clean
-                and user-friendly interfaces.
-            </p>
-
-            <div class="skill">
-                <span>HTML / CSS</span>
-                <div class="progress"><div data-width="90%"></div></div>
-            </div>
-
-            <div class="skill">
-                <span>JavaScript</span>
-                <div class="progress"><div data-width="80%"></div></div>
-            </div>
-
-            <div class="skill">
-                <span>Backend / APIs</span>
-                <div class="progress"><div data-width="70%"></div></div>
-            </div>
-        </div>
+    <div class="img-wrapper">
+      <div class="img-container">
+        <img class="about-bottom-img" src="./src/img/Profile_2.webp" alt="About Me">
+      </div>
     </div>
+
+    <div class="text-wrapper">
+      <h2>About Me</h2>
+
+      <p class="description">
+        I’m a designer and front-end developer skilled in responsive web design,
+        UI/UX and modern JavaScript technologies.
+      </p>
+
+      <div class="diagram">
+        <p>Front-End Development</p>
+        <div class="slide">
+          <div class="fill"></div>
+          <div class="circle"></div>
+        </div>
+
+        <p>Website Design</p>
+        <div class="slide">
+          <div class="fill"></div>
+          <div class="circle"></div>
+        </div>
+
+        <p>UI Design</p>
+        <div class="slide">
+          <div class="fill"></div>
+          <div class="circle"></div>
+        </div>
+
+        <p>3D Design</p>
+        <div class="slide">
+          <div class="fill"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </section>
 
-<!-- SERVICES -->
-<section id="services">
-    <h2>Services</h2>
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services">
+  <div class="container">
 
-    <div class="services">
-        <div class="service-card">
-            <i class="fa-solid fa-code"></i>
-            <h3>Website Development</h3>
-            <p>Modern and responsive websites.</p>
-        </div>
+    <h2 class="services-title">Services</h2>
+    <p class="services-subtitle">
+      What I can offer to employers and clients.
+    </p>
 
-        <div class="service-card">
-            <i class="fa-solid fa-database"></i>
-            <h3>Data Management</h3>
-            <p>Content and database handling.</p>
-        </div>
+    <div class="services-grid">
 
-        <div class="service-card">
-            <i class="fa-solid fa-headset"></i>
-            <h3>Support</h3>
-            <p>Technical support and maintenance.</p>
-        </div>
+      <div class="service-card">
+        <img class="service-icon" src="./src/img/ui-ux.svg" alt="">
+        <h3 class="service-name">UI / UX Design</h3>
+        <p class="service-text">
+          User-centered design and clean interfaces.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img class="service-icon" src="./src/img/pc.svg" alt="">
+        <h3 class="service-name">Web Development</h3>
+        <p class="service-text">
+          Responsive and modern websites.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img class="service-icon" src="./src/img/phone.svg" alt="">
+        <h3 class="service-name">App Design</h3>
+        <p class="service-text">
+          Mobile-first UI and layouts.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img class="service-icon" src="./src/img/design.svg" alt="">
+        <h3 class="service-name">Graphic Design</h3>
+        <p class="service-text">
+          Visual identity and branding.
+        </p>
+      </div>
+
     </div>
+  </div>
 </section>
 
-<!-- PROJECTS -->
-<section id="projects">
-    <h2>My Projects</h2>
+<!-- ================= SCRIPTS ================= -->
+<script src="src/js/main.js"></script>
 
-    <div class="filters">
-        <button class="active" data-filter="all">All</button>
-        <button data-filter="web">Web</button>
-        <button data-filter="app">App</button>
-        <button data-filter="design">Design</button>
-    </div>
-
-    <div class="projects">
-        <div class="project web">
-            <img src="images/project1.jpg">
-            <p>Web Project</p>
-        </div>
-
-        <div class="project app">
-            <img src="images/project2.jpg">
-            <p>App Project</p>
-        </div>
-
-        <div class="project design">
-            <img src="images/project3.jpg">
-            <p>Design Project</p>
-        </div>
-    </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section id="testimonials">
-    <h2>Testimonials</h2>
-
-    <div class="testimonial">
-        <img id="testImage" src="images/testimonial1.jpg">
-        <p id="testText">Great professional, highly recommended.</p>
-        <h4 id="testName">Anna Smith</h4>
-        <span id="testJob">Project Manager</span>
-    </div>
-
-    <div class="dots">
-        <span data-index="0" class="active"></span>
-        <span data-index="1"></span>
-        <span data-index="2"></span>
-        <span data-index="3"></span>
-    </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-    <h2>Contact Me</h2>
-
-    <form id="contactForm">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <input type="text" name="website" placeholder="Your Website">
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-</section>
-
-<!-- MODAL -->
-<div id="modal">
-    <div class="modal-content">
-        <p>Thank you for getting in touch! We appreciate you contacting us.</p>
-        <button id="closeModal">Close</button>
-    </div>
-</div>
-
-<!-- FOOTER -->
-<footer>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <div class="socials">
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-    </div>
-
-    <p>© 2025 John Doe</p>
-</footer>
-
-<script src="js/main.js"></script>
 </body>
 </html>
