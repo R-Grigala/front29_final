@@ -1,0 +1,44 @@
+[
+  {
+    "projectName": "BlogNest",
+    "projectTitle": "Interactive Design",
+    "projectUrl": "https://lukagbn.github.io/BlogNest/",
+    "projectImg": "https://raw.githubusercontent.com/Lukagbn/CV/refs/heads/main/src/img/blognest.webp",
+    "projectGroup": "UI Design"
+  },
+  {
+    "projectName": "Apex Apartments",
+    "projectTitle": "Stunning Visuals",
+    "projectUrl": "https://lukagbn.github.io/Apex-Apartments/",
+    "projectImg": "https://raw.githubusercontent.com/Lukagbn/CV/refs/heads/main/src/img/apex-apartments.webp",
+    "projectGroup": "Web Design"
+  },
+  {
+    "projectName": "Register",
+    "projectTitle": "Simple To Use",
+    "projectUrl": "https://lukagbn.github.io/assigment21/",
+    "projectImg": "https://raw.githubusercontent.com/Lukagbn/CV/refs/heads/main/src/img/register.webp",
+    "projectGroup": "Web Design"
+  },
+  {
+    "projectName": "Sketchapp Project",
+    "projectTitle": "kitchen",
+    "projectUrl": "#",
+    "projectImg": "https://raw.githubusercontent.com/Lukagbn/CV/refs/heads/main/src/img/project%201.webp",
+    "projectGroup": "3D Design"
+  },
+  {
+    "projectName": "Sketchapp Project",
+    "projectTitle": "Bedroom",
+    "projectUrl": "#",
+    "projectImg": "https://raw.githubusercontent.com/Lukagbn/CV/refs/heads/main/src/img/project%202.webp",
+    "projectGroup": "3D Design"
+  },
+  {
+    "projectName": "Sketchapp Project",
+    "projectTitle": "Kitchen",
+    "projectUrl": "#",
+    "projectImg": "https://raw.githubusercontent.com/Lukagbn/CV/refs/heads/main/src/img/project%203.webp",
+    "projectGroup": "3D Design"
+  }
+]

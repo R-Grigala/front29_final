@@ -1,0 +1,288 @@
+@media screen and (min-width: 600px) {
+  .container {
+    max-width: 800px;
+    padding-inline: 20px;
+  }
+  .img-wrapper .about-above-img {
+    max-width: none;
+  }
+  .text-wrapper {
+    max-width: none;
+  }
+  .text-wrapper h1 {
+    font-family: "PoppinsBold";
+    font-size: 100px;
+  }
+  .text-wrapper span {
+    font-size: 100px;
+    margin-top: -26px;
+    align-self: flex-end;
+  }
+  .img-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .img-wrapper {
+    margin-top: 30px;
+  }
+  .text-wrapper h2 {
+    font-size: 56px;
+    text-align: center;
+  }
+  .text-wrapper .description {
+    text-align: justify;
+  }
+  .service-text-container h2 {
+    font-size: 56px;
+    text-align: center;
+  }
+  .service-text-container p {
+    text-align: justify;
+  }
+  .service-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .service-card {
+    max-width: none;
+  }
+  .myProjects-container h2 {
+    font-size: 56px;
+    text-align: center;
+  }
+  .myProjects-text-container p {
+    text-align: justify;
+  }
+  .testimonials-text-container h2 {
+    font-size: 56px;
+    text-align: center;
+  }
+  .testimonials-text-container p {
+    text-align: justify;
+  }
+  .testimonials-slider-container {
+    margin-top: 80px;
+  }
+  .testimonials-slide {
+    max-width: none;
+    height: 344px;
+  }
+  .contact-container h2 {
+    font-size: 56px;
+    text-align: center;
+  }
+  .contact-container p {
+    text-align: justify;
+  }
+  form {
+    max-width: none;
+  }
+  .testimonials-slide-wrapper-text p::before {
+    bottom: 93%;
+    left: -3%;
+  }
+  .testimonials-slide-wrapper-text p::after {
+    top: 90.5%;
+    margin-left: 7px;
+  }
+  .contact-container {
+    text-align: center;
+  }
+  .rights {
+    font-size: 21px;
+  }
+  .social-links {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .profile-wrapper {
+    margin-inline: auto;
+  }
+  .service-text-container p {
+    text-align: center;
+  }
+  .myProjects-text-container p {
+    text-align: center;
+  }
+  .myProjects-container .btn-container {
+    justify-content: center;
+  }
+  .myProjcets-projects-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .testimonials-text-container p {
+    text-align: center;
+  }
+  .testimonials-slide-wrapper-img {
+    max-width: 714px;
+    width: 100%;
+    align-self: auto;
+  }
+  .contact-container p {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1420px) {
+  .container {
+    max-width: 1420px;
+    padding-inline: 0px;
+  }
+  header.container {
+    margin-top: 61px;
+  }
+  .header-nav ul {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    top: 10%;
+    transition: 0.5s ease-in-out;
+    list-style: none;
+    align-items: center;
+    flex-direction: row;
+    opacity: 1;
+    position: static;
+    pointer-events: auto;
+  }
+  .burger-btn {
+    display: none;
+  }
+  .img-wrapper {
+    margin-top: 0px;
+  }
+  .profile-wrapper {
+    margin-top: 120px;
+    margin-inline: auto;
+    flex-direction: row;
+  }
+  .text-wrapper {
+    max-width: 714px;
+  }
+  .text-wrapper .highlight {
+    font-size: 32px;
+  }
+  .img-container {
+    gap: 0px;
+  }
+  .profile-wrapper.top .text-wrapper .description {
+    display: block;
+  }
+  .text-wrapper button {
+    display: block;
+  }
+  .img-wrapper .about-bottom-img {
+    display: block;
+  }
+  .img-wrapper .about-above-img {
+    max-width: 485px;
+  }
+  .text-wrapper h2 {
+    font-size: 65px;
+    text-align: start;
+  }
+  #diagram {
+    gap: 20px;
+  }
+  .services-container {
+    margin-top: 140px;
+  }
+  .service-card-container {
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .service-card {
+    max-width: 330px;
+  }
+  .service-text-container h2 {
+    font-size: 65px;
+  }
+  .service-text-container p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .myProjects-text-container p {
+    text-align: center;
+  }
+  .myProjects-container h2 {
+    font-size: 65px;
+  }
+  .myProjects-container .btn-container {
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .myProjcets-projects-wrapper {
+    margin-top: 106px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .testimonials-text-container p {
+    text-align: center;
+  }
+  .testimonials-text-container h2 {
+    font-size: 65px;
+  }
+  .testimonials-slide {
+    max-width: 1087px;
+    width: 100%;
+    height: 344px;
+    background-color: #f8f8f8;
+    border-radius: 14px;
+  }
+  .position {
+    display: flex;
+  }
+  .testimonials-slide-wrapper {
+    flex-direction: row;
+    padding-inline: 0px;
+    justify-content: space-evenly;
+  }
+  .slider-dots {
+    margin-top: 87px;
+  }
+  .testimonials-slide-wrapper-img {
+    align-self: normal;
+    max-width: none;
+    width: unset;
+  }
+  .testimonials-slide-wrapper-img img {
+    max-width: 235px;
+  }
+  .testimonials-slide-wrapper-img .position {
+    display: none;
+  }
+  .contact-container p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .contact-container h2 {
+    font-size: 65px;
+  }
+  form {
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    column-gap: 28px;
+    row-gap: 41px;
+    max-width: 994px;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-container {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .footer-navigation {
+    margin-top: 290px;
+    flex-direction: row;
+  }
+  .rights {
+    margin-top: 62px;
+    padding-top: 19px;
+    padding-bottom: 33px;
+  }
+}

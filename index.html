@@ -2,187 +2,443 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Robert Garcia - UI & UX Designer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/minCss/minifiedStyle.css" />
+    <link rel="stylesheet" href="src/css/minCss/minifiedResponsive.css" />
+    <script type="module" src="app.js" defer></script>
+    <title>luka gabunia</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
+      rel="shortcut icon"
+      href="./src/img/cv-icon.ico"
+      type="image/x-icon"
     />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+    <!-- google meta tags -->
+    <meta name="description" content="Front-End Development" />
+    <meta name="rating" content="adult" />
+    <!-- facebook meta tags -->
+    <meta property="og:url" content="https://lukagbn.github.io/CV/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Front-End Developer CV" />
+    <meta
+      property="og:description"
+      content="Hi I'm Luka Gabunia, I'm Front-End Developer here's more information about me"
     />
-
-    <link rel="stylesheet" href="./src/css/styles.css" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/Lukagbn/CV/refs/heads/main/src/img/profile-img-1.webp"
+    />
+    <!-- cannonical link -->
+    <link rel="cannonical" href="https://lukagbn.github.io/CV/" />
+    <!-- other meta tags -->
+    <meta
+      name="keywords"
+      content="Front-End, 3D Design, Web Design Responsive Design"
+    />
   </head>
   <body>
-    <header class="header">
-      <div class="container header-inner">
-        <div class="logo">ROMA GRIGALASHVILI</div>
-
-        <nav class="nav">
-          <ul>
-            <li><a href="#backToTOp">Home</a></li>
-            <li><a href="#aboutMe">About Me</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#myProjects">Projects</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-
-        <a href="#" class="btn btn-primary">Download CV</a>
-      </div>
+    <header class="container" id="backToTOp">
+      <a href="https://github.com/Lukagbn" class="logo" target="_blank"
+        >Luka gabunia</a
+      >
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#backToTOp">Home</a></li>
+          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#myProjects">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button class="cv-btn">Downlaod CV</button></li>
+        </ul>
+        <button class="burger-btn">
+          <img src="./src/img/burger-icon.svg" alt="burger icon" />
+        </button>
+      </nav>
     </header>
-
     <main>
-      <section class="hero">
-        <div class="container hero-inner">
-          <div class="hero-text">
-            <p class="hero-intro">Hi I am</p>
-            <p class="hero-name">Roma Grigalashvili</p>
-            <h1 class="hero-title">
-              "Smart" college student<br />
-            </h1>
-
-            <p class="hero-description">
-              Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
-              nibh lectus netus in. Aliquet donec morbi convallis pretium.
-              Turpis tempus pharetra.
-            </p>
-
-            <a href="#" class="btn btn-accent">Hire Me</a>
-          </div>
-
-          <div class="hero-image-block">
-            <div class="photo-circle">
-              <img src="./src/img/Profile_1.webp" alt="My image" />
+      <section class="about-section">
+        <div class="container">
+          <div class="profile-wrapper top">
+            <div class="text-wrapper">
+              <p>Hi I am</p>
+              <p class="highlight">Luka Gabunia</p>
+              <h1>Front-End</h1>
+              <span>Developer</span>
+              <p class="description">
+                I design and build responsive websites and interfaces that look
+                great and work seamlessly. My work blends creativity, usability,
+                and technical precision.
+              </p>
+              <button>Hire Me</button>
             </div>
-
-            <div class="social-links">
-              <a href="https://www.facebook.com/grigalashvili.r">
-                <img src="./src/img/Facebook.png">
-              </i></a>
-              <a href="https://www.instagram.com/grigala_r/">
-                <img src="./src/img/Instagram.png">
-              </i></a>
-              <a href="#">
-                <img src="./src/img/Twitter.png">
-              </i></a>
-              <a href="#">
-                <img src="./src/img/LinkedIn.png">
-              </i></a>
+            <div class="img-wrapper">
+              <div class="img-container">
+                <div class="img-wrapper-container">
+                  <img
+                    class="about-above-img active"
+                    src="./src/img/profile-img-1.webp"
+                    alt=""
+                  />
+                  <img
+                    class="about-above-img"
+                    src="./src/img/profile-img-2.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="social-links">
+                  <a
+                    href="https://www.facebook.com/luka.gabunia.407174"
+                    target="_blank"
+                  >
+                    <img src="./src/img/Facebook - Negative.svg" alt="facebook"
+                  /></a>
+                  <a
+                    href="https://www.linkedin.com/in/luka-gabunia-33682a338/"
+                    target="_blank"
+                  >
+                    <img
+                      src="./src/img/LinkedIn - Negative.svg"
+                      alt="linkedin"
+                    />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/lukagabunia39/"
+                    target="_blank"
+                  >
+                    <img
+                      src="./src/img/Instagram - Negative.svg"
+                      alt="instagram"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile-wrapper bottom" id="aboutMe">
+            <div class="img-wrapper">
+              <div class="img-container">
+                <img
+                  class="about-bottom-img"
+                  src="./src/img/profile-img-2.webp"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-wrapper">
+              <h2>About Me</h2>
+              <p class="description">
+                I’m a designer and front-end developer skilled in responsive web
+                design, UI, and 3D modeling. I focus on creating visually
+                appealing and functional digital experiences.
+              </p>
+              <div class="diagram">
+                <p>Front-End Development</p>
+                <div class="slide">
+                  <div class="fill"></div>
+                  <div class="circle"></div>
+                </div>
+                <p>Website Design</p>
+                <div class="slide">
+                  <div class="fill"></div>
+                  <div class="circle"></div>
+                </div>
+                <p>UI Design</p>
+                <div class="slide">
+                  <div class="fill"></div>
+                  <div class="circle"></div>
+                </div>
+                <p>3D Design</p>
+                <div class="slide">
+                  <div class="fill"></div>
+                  <div class="circle"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
-<section class="about">
-  <div class="container">
-    <div class="about-inner">
-
-
-      <div class="about-left">
-        <div class="about-photo">
-          <img src="./src/img/Profile_2.webp" alt="About photo">
+      <section id="services">
+        <div class="services-container container">
+          <div class="service-text-container">
+            <h2>Services</h2>
+            <p>
+              I offer design and front-end development services focused on
+              creating visually appealing,<br />
+              responsive, and user-friendly digital experiences.
+            </p>
+          </div>
+          <div class="service-card-container">
+            <div class="service-card">
+              <div class="card">
+                <div class="card-head">
+                  <img src="./src/img/ui-ux.svg" alt="Front-End Development" />
+                </div>
+                <div class="card-body">
+                  <span>Front-End Development</span>
+                  <p>
+                    I turn designs into responsive, functional websites using
+                    HTML, CSS, and JavaScript.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="card">
+                <div class="card-head">
+                  <img src="./src/img/pc.svg" alt="web design" />
+                </div>
+                <div class="card-body">
+                  <span>Web Design</span>
+                  <p>
+                    I design modern websites with clean layouts, intuitive
+                    navigation, and user-focused design principles.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="card">
+                <div class="card-head">
+                  <img src="./src/img/phone.svg" alt="UI Design" />
+                </div>
+                <div class="card-body">
+                  <span>UI Design</span>
+                  <p>
+                    I design responsive web interfaces optimized for usability
+                    and visual consistency across different screen sizes.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="card">
+                <div class="card-head">
+                  <img src="./src/img/design.svg" alt="3D design" />
+                </div>
+                <div class="card-body">
+                  <span>3D Design</span>
+                  <p>
+                    Freelance graphic designer with one year of experience
+                    specializing in SketchUp-based visual and 3D design work.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="about-right">
-        <h2 class="about-title">About Me</h2>
-
-        <p class="about-text">
-          Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
-          lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus
-          pharetra
-        </p>
-
-        <div class="skills">
-
-          <div class="skill">
-            <div class="skill-name">English</div>
-            <div class="skill-line">
-              <div class="skill-fill" style="width: 100%;"></div>
-            </div>
+      </section>
+      <section id="myProjects">
+        <div class="myProjects-container container">
+          <div class="myProjects-text-container">
+            <h2>My Projects</h2>
+            <p>
+              Here are some of my recent projects, showcasing responsive web
+              designs,<br />
+              3D models, and front-end development work.
+            </p>
           </div>
-
-          <div class="skill">
-            <div class="skill-name">Website Design</div>
-            <div class="skill-line">
-              <div class="skill-fill" style="width: 58%;"></div>
-            </div>
+          <div class="btn-container">
+            <button value="All" active>All</button>
+            <button value="Web Design">Web Design</button>
+            <button value="UI Design">UI Design</button>
+            <button value="3D Design">3D Design</button>
           </div>
-
-          <div class="skill">
-            <div class="skill-name">App Design</div>
-            <div class="skill-line">
-              <div class="skill-fill" style="width: 45%;"></div>
-            </div>
-          </div>
-
-          <div class="skill">
-            <div class="skill-name">Graphic Design</div>
-            <div class="skill-line">
-              <div class="skill-fill" style="width: 90%;"></div>
-            </div>
-          </div>
-
+          <div class="myProjcets-projects-wrapper"></div>
         </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="services">
-  <div class="container">
-    <h2 class="services-title">Services</h2>
-    <p class="services-subtitle">
-      Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus
-      netus in. Aliquet donec morbi convallis pretium
-    </p>
-
-    <div class="services-grid">
-      <div class="service-card">
-        <img class="service-icon" src="./src/img/ui-ux.svg"/>
-        <h3 class="service-name">UI/UX</h3>
-        <p class="service-text">
-          Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum
-        </p>
-      </div>
-
-      <div class="service-card">
-        <img class="service-icon" src="./src/img/pc.svg"/>
-        <h3 class="service-name">Web Design</h3>
-        <p class="service-text">
-          Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum
-        </p>
-      </div>
-
-      <div class="service-card">
-        <img class="service-icon" src="./src/img/design.svg"/>
-        <h3 class="service-name">App Design</h3>
-        <p class="service-text">
-          Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum
-        </p>
-      </div>
-
-      <div class="service-card">
-        <img class="service-icon" src="./src/img/phone.svg"/>
-        <h3 class="service-name">Graphic Design</h3>
-        <p class="service-text">
-          Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
+      </section>
+      <section id="testimonials">
+        <div class="testimonials-container container">
+          <div class="testimonials-text-container">
+            <h2>Testimonials</h2>
+            <p>
+              Testimonials from clients and collaborators who trusted me to
+              design and develop responsive,<br />
+              visually engaging digital experiences.
+            </p>
+          </div>
+          <div class="testimonials-slider-container">
+            <div class="testimonials-slide active">
+              <div class="testimonials-slide-wrapper">
+                <div class="testimonials-slide-wrapper-img">
+                  <img src="./src/img/alex.webp" alt="prifile picture" />
+                  <div class="position">
+                    <span>Alex Morgan</span>Product Manager
+                  </div>
+                </div>
+                <div class="testimonials-slide-wrapper-text">
+                  <p>
+                    Working with him was smooth from start to finish. He quickly
+                    understood our requirements and delivered a clean,
+                    responsive interface that worked perfectly across devices.
+                    Communication was clear, and deadlines were always met.
+                  </p>
+                  <div class="position">
+                    <span>Alex Morgan</span>Product Manager
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonials-slide">
+              <div class="testimonials-slide-wrapper">
+                <div class="testimonials-slide-wrapper-img">
+                  <img src="./src/img/sophia.webp" alt="prifile picture" />
+                  <div class="position">
+                    <span>Sophia Reynolds</span>Startup Founder
+                  </div>
+                </div>
+                <div class="testimonials-slide-wrapper-text">
+                  <p>
+                    He helped transform our ideas into a modern, user-friendly
+                    website. The design was visually strong, and the front-end
+                    implementation was fast and reliable. I really appreciated
+                    his attention to detail and problem-solving approach.
+                  </p>
+                  <div class="position">
+                    <span>Sophia Reynolds</span>Startup Founder
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonials-slide">
+              <div class="testimonials-slide-wrapper">
+                <div class="testimonials-slide-wrapper-img">
+                  <img src="./src/img/Daniel.webp" alt="prifile picture" />
+                  <div class="position">
+                    <span>Daniel Cooper</span>Marketing Lead
+                  </div>
+                </div>
+                <div class="testimonials-slide-wrapper-text">
+                  <p>
+                    The website redesign significantly improved our user
+                    engagement. He delivered a modern layout with intuitive
+                    navigation and optimized performance. A great balance of
+                    creativity and technical skill.
+                  </p>
+                  <div class="position">
+                    <span>Daniel Cooper</span>Marketing Lead
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonials-slide">
+              <div class="testimonials-slide-wrapper">
+                <div class="testimonials-slide-wrapper-img">
+                  <img src="./src/img/Emma.webp" alt="prifile picture" />
+                  <div class="position">
+                    <span>Emma Walsh</span>UI/UX Consultant
+                  </div>
+                </div>
+                <div class="testimonials-slide-wrapper-text">
+                  <p>
+                    His understanding of UI principles and front-end development
+                    made collaboration easy. He consistently delivered
+                    well-structured, visually consistent designs and was open to
+                    feedback throughout the process.
+                  </p>
+                  <div class="position">
+                    <span>Emma Walsh</span>UI/UX Consultant
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-container container">
+          <div class="contact-container-text">
+            <h2>Contact Us</h2>
+            <p>
+              Have a project or question? Send us a message, and we’ll get back
+              to you shortly.
+            </p>
+          </div>
+          <div class="contact-form-container">
+            <form action="#" novalidate>
+              <div class="form-group">
+                <input
+                  class="name"
+                  type="text"
+                  placeholder="Your Name"
+                  minlength="3"
+                />
+                <span class="errorMessage"></span>
+              </div>
+              <div class="form-group">
+                <input
+                  class="email"
+                  type="email"
+                  placeholder="Enter Your Email "
+                />
+                <span class="errorMessage"></span>
+              </div>
+              <div class="form-group">
+                <input
+                  class="yourWeb"
+                  type="text"
+                  placeholder="Enter Your Website"
+                  minlength="5"
+                />
+                <span class="errorMessage"></span>
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  class="yourMessage"
+                  placeholder="Enter Your Message"
+                  minlength="10"
+                ></textarea>
+                <span class="errorMessage"></span>
+              </div>
+              <input class="contact-btn" type="submit" value="Contact Me" />
+            </form>
+          </div>
+        </div>
+        <dialog id="dialog">
+          <div class="dialog-wrapper">
+            <div class="cross">X</div>
+            <h2>
+              Thank you for getting in touch! We appreciate you contacting us.
+            </h2>
+          </div>
+        </dialog>
+      </section>
     </main>
+    <footer>
+      <div class="footer-container">
+        <ul class="footer-navigation container">
+          <li><a href="#backToTOp">Home</a></li>
+          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#myProjects">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="social-links">
+          <a
+            href="https://www.facebook.com/luka.gabunia.407174"
+            target="_blank"
+          >
+            <img src="./src/img/Facebook - Negative.svg" alt="facebook"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/luka-gabunia-33682a338/"
+            target="_blank"
+          >
+            <img src="./src/img/LinkedIn - Negative.svg" alt="linkedin" />
+          </a>
+          <a href="https://www.instagram.com/lukagabunia39/" target="_blank">
+            <img src="./src/img/Instagram - Negative.svg" alt="instagram" />
+          </a>
+        </div>
+      </div>
+      <p class="rights">© 2025 All Rights Reserved , Inc.</p>
+    </footer>
   </body>
 </html>
